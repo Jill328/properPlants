@@ -1,0 +1,85 @@
+.app {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.plant-section {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+    gap: 1ch;
+    
+}
+.plant-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 6px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plant-card span {
+    font-size: 4rem;
+    line-height:1;
+    margin-bottom: 1rem;
+}
+
+.plant-card h3 {
+    margin: 0.5rem 0 0.8rem;
+}
+
+button {
+    padding: 0.4rem 0.8rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.cart {
+    width: 250px;
+    border-left: 1px solide #ccc;;
+    padding-left: 2rem;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+    gap: 0.5rem;
+}
+
+.cart-item span {
+    font-size: 1.25rem;
+}
+
+.cart-item .name {
+    flex:1;
+    margin-left: 0.5rem;
+}
+
+.cart-item .controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart-item button {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

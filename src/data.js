@@ -1,4 +1,4 @@
-const PLANTS = [
+const plants = [
   {
     id: 1,
     image: "🌿",
@@ -76,4 +76,4 @@ const PLANTS = [
   },
 ];
 
-export default PLANTS;
+export default plants;
